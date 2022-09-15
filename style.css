@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family:"Nunito Sans";
+}
+
+.header{
+  background-image:url("images/images/aidan-hancock-8RU4OuA6Yug-unsplash.png");
+  background-size:contain;
+  background-repeat:no-repeat;
+  padding-bottom:100%;
+}
+
+.heading-text{
+  font-family:"Montserrat";
+}
