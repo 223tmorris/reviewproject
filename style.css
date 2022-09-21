@@ -2,15 +2,123 @@ html, body {
   height: 100%;
   width: 100%;
   font-family:"Nunito Sans";
+  color:#141414;
 }
 
-.header{
-  background-image:url("images/images/aidan-hancock-8RU4OuA6Yug-unsplash.png");
-  background-size:contain;
-  background-repeat:no-repeat;
-  padding-bottom:100%;
+section.header{
+  position: relative;
+  background: url("images/images/aidan-hancock-8RU4OuA6Yug-unsplash.png") no-repeat center center;
+  background-size: cover;
+  padding-bottom: 31rem;
+}
+
+.background-skills{
+  background-image: url("https://replit.com/@honors-advanced-web/HTMLCSSBootstrap-Review-Project-TylerM17#images/images/stil-sHGyGynyD5Y-unsplash.png");
+}
+
+.btn-primary{
+  background-color:#10c9c3 !important;
+  border-color:#10c9c3 !important;
+  border-radius:1px !important;
+}
+
+.btn-primary:hover{
+  background-color:#0eb0ab !important;
+  border-color:#0eb0ab !important;
+}
+
+img-center{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.nav-item{
+    color:#141414 !important;
 }
 
 .heading-text{
   font-family:"Montserrat";
+}
+
+.active{
+  color:#10c9c3 !important;
+}
+
+.background3{
+  background-color:#FFFFFF
+}
+
+.background2{
+  background-color:#F5F5F5
+}
+
+.background{
+  background-color:#787878
+}
+
+section.about{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.bg-success{
+  background-color:#10c9c3 !important;
+}
+
+section.skills{
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+section.numbers{
+  padding-top:5rem;
+  padding-bottom:5rem;
+  background-color:#10c9c3;
+  color:white;
+}
+
+section.portfolio{
+  padding-top:5%;
+  padding-bottom:5%;
+  padding-left:5%;
+}
+
+section.icons{
+  padding-top:5rem;
+  padding-bottom:5rem;
+}
+
+section.review{
+  background-color:#10c9c3;
+  padding-top:12rem;
+  padding-bottom:12rem;
+  color:white;
+  font-family:"Montserrat";
+}
+
+section.clients{
+  padding-top:5rem;
+  padding-bottom:5rem;
+}
+
+section.contact{
+  padding-top:5rem;
+  padding-bottom:5rem 
+}
+
+.portfolio-item:hover{
+  background: rgba(0, 0, 0, 0.1);
+  align-items: center;
+  transition: opacity ease-in-out 0.25s;
+}
+
+.img-fluid{
+  max-width:100%;
+  height:auto;
+}
+
+.img-brand {
+  /* height: 12rem;
+  width: 28rem; */
 }
